@@ -1,3 +1,13 @@
+from telebot import TeleBot
+import os
+
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+
+if not TOKEN:
+    raise RuntimeError("Necesitas configurar TELEGRAM_BOT_TOKEN")
+
+bot = TeleBot(TOKEN)
+
 @bot.message_handler(commands=['eliminar'])
 def eliminar_personaje(message):
     # Lógica para eliminar personaje
