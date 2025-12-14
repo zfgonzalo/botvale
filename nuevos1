@@ -1,0 +1,14 @@
+@bot.message_handler(commands=['eliminar'])
+def eliminar_personaje(message):
+    # Lógica para eliminar personaje
+    bot.reply_to(message, "¡Personaje eliminado!")
+
+@bot.message_handler(commands=['trade'])
+def trade_personajes(message):
+    # Lógica para intercambiar personajes
+    bot.reply_to(message, "¡Intercambio realizado!")
+
+@bot.message_handler(commands=['regalar'])
+def regalar_personaje(message):
+    # Lógica para regalar personajes
+    bot.reply_to(message, "¡Personaje regalado!")
