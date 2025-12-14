@@ -1,0 +1,103 @@
+[1:44 AM, 14/12/2025] Negrita Suiza: characters = [
+    # 1% - Legendario
+    Character("Monkey D. Luffy", "One Piece", "Masculino", 1, "https://bit.ly/3mU7wLO"),
+
+    # 5% - Épico
+    Character("Roronoa Zoro", "One Piece", "Masculino", 5, "https://bit.ly/3mU7KQm"),
+    Character("Nami", "One Piece", "Femenino", 5, "https://bit.ly/3FfqlLw"),
+    Character("Sanji", "One Piece", "Masculino", 5, "https://bit.ly/3qR9fGm"),
+    Character("Usopp", "One Piece", "Masculino", 5, "https://bit.ly/3R9mXeU"),
+    Character("Tony Tony Chopper", "One Piece", "Masculino", 5, "https://bit.ly/3mX9lQk"),
+    Character("Nico Robin", "One Piece", "Femenino", 5, "https://bit.ly/3mU8pPf"),
+    Character("Franky", "One Piece", "Masculino", 5, "https://bit.ly/3mY0w7S"),
+    Character("Brook", "One Piece", "Masculino", 5, "https://bit.ly/3mV0m7X"),
+    Character("Jinbe", "One Piece", "Masculino", 5, "https://bit.ly/3qU0z8V"),
+    Character("Shanks", "One Piece", "Masculino", 5, "https://bit.ly/3R9XyLk"),
+
+    # 15% - Raro
+    Character("Portgas D. Ace", "One Piece", "Masculino", 15, "https://bit.ly/3mX7v2J"),
+    Character("Trafalgar Law", "One Piece", "Masculino", 15, "https://bit.ly/3R9YtQp"),
+    Character("Boa Hancock", "One Piece", "Femenino", 15, "https://bit.ly/3mX8c3K"),
+    Character("Sabo", "One Piece", "Masculino", 15, "https://bit.ly/3qR7s9F"),
+    Character("Dracule Mihawk", "One Piece", "Masculino", 15, "https://bit.ly/3R9VqJt"),
+    Character("Donquixote Doflamingo", "One Piece", "Masculino", 15, "https://bit.ly/3mX9wQK"),
+    Character("Charlotte Katakuri", "One Piece", "Masculino", 15, "https://bit.ly/3qR9uTz"),
+    Character("Big Mom", "One Piece", "Femenino", 15, "https://bit.ly/3R9XtLk"),
+    Character("Kaido", "One Piece", "Masculino", 15, "https://bit.ly/3mX9yQK"),
+    Character("Blackbeard", "One Piece", "Masculino", 15, "https://bit.ly/3qR9vTx"),
+
+    # 30% - Poco común
+    Character("Enel", "One Piece", "Masculino", 30, "https://bit.ly/3R9XzKt"),
+    Character("Crocodile", "One Piece", "Masculino", 30, "https://bit.ly/3mY2aJk"),
+    Character("Rob Lucci", "One Piece", "Masculino", 30, "https://bit.ly/3qR9xTy"),
+    Character("Kizaru", "One Piece", "Masculino", 30, "https://bit.ly/3R9XuLp"),
+    Character("Fujitora", "One Piece", "Masculino", 30, "https://bit.ly/3mY3bKl"),
+    Character("Coby", "One Piece", "Masculino", 30, "https://bit.ly/3R9ZpQJ"),
+    Character("Helmeppo", "One Piece", "Masculino", 30, "https://bit.ly/3mY1d2L"),
+    Character("Smoker", "One Piece", "Masculino", 30, "https://bit.ly/3qR8t3K"),
+    Character("Tashigi", "One Piece", "Femenino", 30, "https://bit.ly/3mV1e4L"),
+    Character("Pedro", "One Piece", "Masculino", 30, "https://bit.ly/3qR9eUz"),
+
+    # 49% - Común (secundarios / relleno / background)
+    Character("Hachi", "One Piece", "Masculino", 49, "https://bit.ly/3mY4fQr"),
+    Character("Cabaji", "One Piece", "Masculino", 49, "https://bit.ly/3qR8fTx"),
+    Character("Gin", "One Piece", "Masculino", 49, "https://bit.ly/3mY5gQr"),
+    Character("Kuroobi", "One Piece", "Masculino", 49, "https://bit.ly/3qR8gTx"),
+    Character("Alvida", "One Piece", "Femenino", 49, "https://bit.ly/3mY6hQr"),
+    Character("Smoker 2", "One Piece", "Masculino", 49, "https://bit.ly/3qR8hTx"),
+    Character("T-Bone", "One Piece", "Masculino", 49, "https://bit.ly/3mY7iQr"),
+    Character("Hina", "One Piece", "Femenino", 49, "https://bit.ly/3qR8iTx"),
+    Character("Domino", "One Piece", "Femenino", 49, "https://bit.ly/3mY8jQr"),
+    Character("Fukaboshi", "One Piece", "Masculino", 49, "https://bit.ly/3qR8jTx"),
+]
+[1:51 AM, 14/12/2025] Negrita Suiza: characters_naruto = [
+    # 1% - Legendario
+    Character("Naruto Uzumaki", "Naruto", "Masculino", 1, "https://bit.ly/3N7QvXk"),
+
+    # 5% - Épico
+    Character("Sasuke Uchiha", "Naruto", "Masculino", 5, "https://bit.ly/3N7RxYk"),
+    Character("Sakura Haruno", "Naruto", "Femenino", 5, "https://bit.ly/3N7SyZk"),
+    Character("Kakashi Hatake", "Naruto", "Masculino", 5, "https://bit.ly/3N7TyXk"),
+    Character("Gaara", "Naruto", "Masculino", 5, "https://bit.ly/3N7UyZk"),
+    Character("Itachi Uchiha", "Naruto", "Masculino", 5, "https://bit.ly/3N7VyXk"),
+    Character("Jiraiya", "Naruto", "Masculino", 5, "https://bit.ly/3N7WyZk"),
+    Character("Orochimaru", "Naruto", "Masculino", 5, "https://bit.ly/3N7XyXk"),
+    Character("Tsunade", "Naruto", "Femenino", 5, "https://bit.ly/3N7YyZk"),
+    Character("Madara Uchiha", "Naruto", "Masculino", 5, "https://bit.ly/3N7ZyXk"),
+
+    # 15% - Raro
+    Character("Shikamaru Nara", "Naruto", "Masculino", 15, "https://bit.ly/3N8A0Yk"),
+    Character("Choji Akimichi", "Naruto", "Masculino", 15, "https://bit.ly/3N8B0Zk"),
+    Character("Ino Yamanaka", "Naruto", "Femenino", 15, "https://bit.ly/3N8C0Yk"),
+    Character("Hinata Hyuga", "Naruto", "Femenino", 15, "https://bit.ly/3N8D0Zk"),
+    Character("Neji Hyuga", "Naruto", "Masculino", 15, "https://bit.ly/3N8E0Yk"),
+    Character("Rock Lee", "Naruto", "Masculino", 15, "https://bit.ly/3N8F0Zk"),
+    Character("Might Guy", "Naruto", "Masculino", 15, "https://bit.ly/3N8G0Zk"),
+    Character("Kiba Inuzuka", "Naruto", "Masculino", 15, "https://bit.ly/3N8H0Yk"),
+    Character("Akamaru", "Naruto", "Masculino", 15, "https://bit.ly/3N8I0Zk"),
+    Character("Sai", "Naruto", "Masculino", 15, "https://bit.ly/3N8J0Zk"),
+
+    # 30% - Poco común
+    Character("Temari", "Naruto", "Femenino", 30, "https://bit.ly/3N8K0Zk"),
+    Character("Kankuro", "Naruto", "Masculino", 30, "https://bit.ly/3N8L0Yk"),
+    Character("Hidan", "Naruto", "Masculino", 30, "https://bit.ly/3N8M0Zk"),
+    Character("Kakuzu", "Naruto", "Masculino", 30, "https://bit.ly/3N8N0Yk"),
+    Character("Deidara", "Naruto", "Masculino", 30, "https://bit.ly/3N8O0Zk"),
+    Character("Sasori", "Naruto", "Masculino", 30, "https://bit.ly/3N8P0Zk"),
+    Character("Konan", "Naruto", "Femenino", 30, "https://bit.ly/3N8Q0Yk"),
+    Character("Pain/Nagato", "Naruto", "Masculino", 30, "https://bit.ly/3N8R0Zk"),
+    Character("Killer Bee", "Naruto", "Masculino", 30, "https://bit.ly/3N8S0Zk"),
+    Character("Minato Namikaze", "Naruto", "Masculino", 30, "https://bit.ly/3N8T0Yk"),
+
+    # 49% - Común (relleno / secundarios / background)
+    Character("Iruka Umino", "Naruto", "Masculino", 49, "https://bit.ly/3N8U0Zk"),
+    Character("Anko Mitarashi", "Naruto", "Femenino", 49, "https://bit.ly/3N8V0Zk"),
+    Character("Yamato", "Naruto", "Masculino", 49, "https://bit.ly/3N8W0Yk"),
+    Character("Shino Aburame", "Naruto", "Masculino", 49, "https://bit.ly/3N8X0Zk"),
+    Character("Kurenai Yuhi", "Naruto", "Femenino", 49, "https://bit.ly/3N8Y0Yk"),
+    Character("Asuma Sarutobi", "Naruto", "Masculino", 49, "https://bit.ly/3N8Z0Zk"),
+    Character("Choza Akimichi", "Naruto", "Masculino", 49, "https://bit.ly/3N8A1Yk"),
+    Character("Hiashi Hyuga", "Naruto", "Masculino", 49, "https://bit.ly/3N8B1Zk"),
+    Character("Tenten", "Naruto", "Femenino", 49, "https://bit.ly/3N8C1Yk"),
+    Character("Shikaku Nara", "Naruto", "Masculino", 49, "https://bit.ly/3N8D1Zk")
+]
