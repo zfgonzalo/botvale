@@ -63,12 +63,11 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
         reply = (
             f"🎴 PERSONAJE ENCONTRADO\n\n"
-            f"👤 Nombre: {personaje.name}\n"
-            f"📺 Anime: {personaje.anime}\n"
-            f"⚧ Género: {personaje.gender}\n"
-            f"🎯 Rareza: {tier} ({personaje.rarity}%)\n"
-            f"📌 Estado: {personaje.status}\n\n"
-            f"✍️ Usa #claim o #c para reclamarlo"
+            f"❀ Nombre: {personaje.name}\n"
+            f"❖ Anime: {personaje.anime}\n"
+            f"⚥ Género: {personaje.gender}\n"
+            f"✰ Rareza: {tier} ({personaje.rarity}%)\n"
+            f"♡ Estado: {personaje.status}\n\n"
         )
         try:
             with open(personaje.image_path, 'rb') as photo_file:
@@ -124,11 +123,11 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         
         reply = (
             f"📋 **INFORMACIÓN DEL PERSONAJE**\n\n"
-            f"👤 Nombre: {personaje_encontrado.name}\n"
-            f"📺 Anime: {personaje_encontrado.anime}\n"
-            f"⚧ Género: {personaje_encontrado.gender}\n"
-            f"🎯 Rareza: {tier} ({personaje_encontrado.rarity}%)\n"
-            f"📌 Estado: {estado}"
+            f"❀ Nombre: {personaje_encontrado.name}\n"
+            f"❖ Anime: {personaje_encontrado.anime}\n"
+            f"⚥ Género: {personaje_encontrado.gender}\n"
+            f"✰ Rareza: {tier} ({personaje_encontrado.rarity}%)\n"
+            f"♡ Estado: {estado}"
         )
         
         try:
@@ -157,3 +156,42 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+@bot.message_handler(commands=['eliminar'])
+def eliminar_personaje(message):
+    # Lógica para eliminar personaje
+    bot.reply_to(message, "¡Personaje eliminado!")
+
+@bot.message_handler(commands=['trade'])
+def trade_personajes(message):
+    # Lógica para intercambiar personajes
+    bot.reply_to(message, "¡Intercambio realizado!")
+
+@bot.message_handler(commands=['regalar'])
+def regalar_personaje(message):
+    # Lógica para regalar personajes
+    bot.reply_to(message, "¡Personaje regalado!")
+
+@bot.message_handler(commands=['hit'])
+def hit_gif(message):
+    import random
+    
+    # Lista de GIFs 
+    gifs = [
+        'https://giphy.com/gifs/fighting-dragon-ball-z-wiaoWlW17fqIo',
+        'https://giphy.com/gifs/attack-on-titan-badass-11HeubLHnQJSAU',
+        'https://giphy.com/gifs/Edgerunners-anime-cyberpunk-edgerunners-NY3tXwOBUwQYq7lbXx',
+        'https://giphy.com/gifs/iQiyiOfficial-anime-anya-spy-x-family-NuiEoMDbstN0J2KAiH',
+        'https://giphy.com/gifs/naruto-fighting-f5UwtpUbrAEE0',
+        'https://tenor.com/fr/view/foot-waving-ghost-ghost-hug-thank-you-images-bnb-gif-13106348231337897144',
+        'https://tenor.com/fr/view/anime-fight-garou-one-punch-man-fast-punches-gif-16352875',
+        'https://tenor.com/fr/view/spec-baki-baki-the-grappler-kick-anime-gif-17081354',
+        'https://tenor.com/fr/view/bruncket-gif-21790584',
+        'https://tenor.com/fr/view/anime-baki-fighting-face-palm-face-smash-gif-17655794'
+    ]
+    
+    # Elegir un GIF al azar
+    gif_elegido = random.choice(gifs)
+    
+    # Enviar GIF al chat
+    bot.send_animation(message.chat.id, gif_elegido)
